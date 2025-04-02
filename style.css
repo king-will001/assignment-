@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJvdHxlbnwwfHx8fDE2ODQ5NTY1NzE&ixlib=rb-4.0.3&q=80&w=1080) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navbar{
+     width: 86%;
+     display: flex;
+     margin: auto;
+     padding: 15px 0;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+
+.navbar .image {
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+ 
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 10px 16px; 
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(129, 77, 8);
+    margin-top: -10%;
+    transition: .5s ease ;
+    bottom: 0;
+    
+}
+ul li a:hover{
+    color: rgb(230,104,59)
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+}
+
+
+.info span{
+    color: rgb(129, 41, 9);
+
+}
+
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .5s ease-in-out;
+}
+
+.info a:hover{
+    background: rgb(230,104,59);
+
+}
+
+image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+
+    .image img{
+        position: absolute;
+        height: 110%;
+        left: 80%;
+        transform: translate(-50%);
+        bottom: 0%;
+        top: 12%;
+        transform: left 3s ease;
+    }
+
+
+.image:hover .boy{
+    left: 70%
+}
+
+.social-icon i {
+    font-size: 24px;
+    color: #4267B2; /* Facebook blue */
+    margin: 0 10px;
+}
+
+.social-icon a {
+    text-decoration: none;
+}
+
